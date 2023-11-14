@@ -2,9 +2,40 @@
   max-width: 100%;
   margin-top: 10px;
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-image {
   width: 100%;
-  display: none;
+  display: block; 
+  transition: opacity 0.5s ease-in-out; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  opacity: 0; 
+}
+
+
+.visible {
+  opacity: 1; 
+  position: relative; 
+}
+
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel-control.left {
+  left: 10px;
+}
+
+.carousel-control.right {
+  right: 10px;
 }
