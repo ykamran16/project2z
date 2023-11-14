@@ -1,4 +1,4 @@
-/* Add to homejs.js */
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const images = [
@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
         imgElement.src = image.src;
         imgElement.alt = `Carousel image ${idx + 1}`;
         imgElement.className = 'carousel-image';
-        imgElement.style.display = 'none'; // Images are hidden by default
+        imgElement.style.display = 'none'; 
         if (idx === 0) {
-            imgElement.classList.add('visible'); // Show the first image
+            imgElement.classList.add('visible'); 
         }
         carouselContainer.appendChild(imgElement);
     }
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         images[currentImageIdx].classList.add('visible');
     }
 
-    // Setup event listeners for controls
+  
     const nextButton = document.createElement('div');
     nextButton.textContent = '>';
     nextButton.className = 'carousel-control right';
