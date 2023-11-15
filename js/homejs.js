@@ -2,9 +2,9 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const images = [
-        { src: 'images/image1.jpg', caption: 'Caption 1' }, 
-        { src: 'images/image2.jpg', caption: 'Caption 2' },
-        { src: 'images/image3.jpg', caption: 'Caption 3' }
+        { src: 'images/image1.jpg', caption: '1' }, 
+        { src: 'images/image2.jpg', caption: '2' },
+        { src: 'images/image3.jpg', caption: '3' }
     ];
     let currentImageIdx = 0;
     const carouselContainer = document.getElementById('carousel');
