@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Nunito";
+  src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf) format(TrueType);
+}
+
+html{
+	font-family: "Nunitos", Times, sans-serif;
+}
+
+body, h1, h2. h3, ul, li{
+	margin:0;
+	padding:1rem;
+}
+
+body{
+	background-color: #faf2f2;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3{
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.3em;
+}
+
+h3{
+	font-size: 1.2em;
+}	
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #2b6ca3;
+  color: #ffffff;
+  font-size: 1rem;
+  position: relative;
+}
+
+.reach-us {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.reach-us a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.reach-us img {
+  width: 30px;
+}
