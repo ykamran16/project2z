@@ -1,6 +1,6 @@
 #carousel {
   max-width: 60%;
-  margin-top: 10px;
+  margin: 10px auto;
   position: relative;
   overflow: hidden;
 }
@@ -12,7 +12,7 @@
   position: absolute; 
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   opacity: 0; 
 }
 
