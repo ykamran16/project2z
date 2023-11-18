@@ -1,0 +1,89 @@
+html{
+	font-family: "Nunitos", Arial, sans-serif;
+}
+main {
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.about-container{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 12px 0;
+}
+.gradient {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.about-container img {
+  mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,1) 99%, transparent 100%);
+  left:30%;
+  height: max-content;
+  position: absolute;
+  z-index: -1;
+}
+.about-text {
+  position: relative;
+  display:inline-block;
+  width: 60%;
+  text-wrap: wrap;
+  line-height: 16pt;
+}
+
+.about-text ul {
+  padding-left: 8px;
+  display: inline-block;
+  li::before {
+    content: "🌎 ";
+  }
+}
+
+#bottom {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#picture {
+  float: left;
+  width: 50%;
+}
+#picture img {
+  width: 100%;
+}
+#board {
+  margin-left: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#board #board-text {
+  text-align: right;
+  position: absolute;
+  top:50%;
+  height: 50%;
+}
+
+/* move to style.css later */
+h1, h2, h3, strong {
+  font-weight: bold;
+}
+h1{
+  font-size: 1.44em;
+  color: #2b6ca3;
+}
+h2{
+  font-size: 1.44em;
+  color: #333d9e;
+  position: relative;
+}
+h3 {
+  font-size: 1.2em;
+}
+p {
+  font-size: 1em;
+}

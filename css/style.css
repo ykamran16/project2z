@@ -1,7 +1,11 @@
 /* Use for all 3 pages */
+@font-face {
+  font-family: "Nunito";
+  src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf) format(TrueType);
+}
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Nunitos", 'Arial', sans-serif;
   color: #555;
   margin: 0;
   padding: 0;
