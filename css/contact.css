@@ -50,7 +50,7 @@ footer {
   background-color: #2b6ca3;
   color: #ffffff;
   font-size: 1rem;
-  
+  position: relative;
 }
 
 .reach-us {
@@ -60,6 +60,13 @@ footer {
   margin: 10px;
 }
 
+.reach-us {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+}
+
 .reach-us a {
   display: inline-block;
   margin-left: 10px;
@@ -67,6 +74,11 @@ footer {
 
 .reach-us img {
   width: 30px;
+}
+
+/* Header and Links - Mobile */
+header.contact {
+	text-align: center;
 }
 
 nav ul {
@@ -118,8 +130,6 @@ label {
   font-family: 'Manrope', sans-serif;
   font-size: 1.125em;
 }
-
-
 
 label, input[type="email"], textarea {
   width: 100%;
@@ -182,6 +192,13 @@ button:hover {
     height: 500px; 
   }
   
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
 
   /* Page Content - Tablet */
   .content {
@@ -204,6 +221,24 @@ button:hover {
     flex: 1;
     margin-left: 20px;
   }
+  
+  @media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 1.728em;
+  }
+
+  h2 {
+    font-size: 1.728em;
+  }
+
+  h3 {
+    font-size: 1.44em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
 
 
   /* Info Blocks - Tablet*/
