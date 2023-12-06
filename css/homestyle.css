@@ -45,3 +45,78 @@
   opacity: 0;
   visibility: hidden; 
 }
+
+html{
+	font-family: "Nunitos", Times, sans-serif;
+}
+
+/* Body*/
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 1rem;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1{
+  font-size: 1.44em;
+  color: #2b6ca3;
+}
+
+h2{
+  font-size: 1.44em;
+  color: #333d9e;
+  position: relative;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #2b6ca3;
+  color: #ffffff;
+  font-size: 1rem;
+  
+}
+
+.reach-us {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.reach-us a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.reach-us img {
+  width: 30px;
+}
+
+nav ul li a {
+  color: #333d9e; 
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  border-bottom: 3px solid #23527C;
+}
+
+
