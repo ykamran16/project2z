@@ -1,96 +1,8 @@
-/* Use for all 3 pages */
-@font-face {
-  font-family: "Nunito";
-  src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf) format(TrueType);
-}
-
-body {
-  font-family: "Nunitos", 'Arial', sans-serif;
-  color: #555;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #E6F4F1;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-#logo-container {
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-}
-
-#logo {
-  height: 50px; 
-  margin-right: 15px;
-}
-
-h1 {
-  font-family: 'Georgia', serif;
-  font-size: 1.6em;
-  color: #3071A9; 
-  margin: 0;
-}
-
-footer {
-  background-color: #E6F4F1;
-  color: #555;
-  text-align: center;
-  padding: 10px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  header {
-    flex-direction: column;
-  }
-
-  #logo {
-    margin: 0 auto;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  background-color: #E6F4F1;
-}
-
-nav ul li {
-  padding: 10px 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #3071A9;
-  font-size: 1.1em;
-}
-
-nav ul li a.active,
-nav ul li a:hover {
-  color: #23527C;
-  border-bottom: 3px solid #23527C;
-}
-
 html{
 	font-family: "Nunitos", Times, sans-serif;
 }
 
-/*Start of Yawar-Contact Css */
+
 /* Body*/
 body, h1, h2, h3, p, ul, li {
   margin: 0;
@@ -136,19 +48,7 @@ footer {
   position: relative;
 }
 
-.reach-us {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 10px;
-}
 
-.reach-us {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	margin: 10px;
-}
 
 .reach-us a {
   display: inline-block;
@@ -330,4 +230,4 @@ button:hover {
     margin: 20px 0;
   }
 }
-/* End of Yawar CSS */
+
